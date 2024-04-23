@@ -377,10 +377,15 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     name: Attribute.String;
     products: Attribute.Component<'service.service', true>;
     teams: Attribute.Component<'team.team', true>;
-    experience: Attribute.Blocks;
     aboutTitle: Attribute.Text;
     aboutDesc: Attribute.Text;
     services: Attribute.Component<'service.service', true>;
+    hero: Attribute.Component<'hero.hero'>;
+    experience: Attribute.Component<'experience.experience'>;
+    phone: Attribute.String;
+    email: Attribute.String;
+    address: Attribute.String;
+    footerTitle: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
