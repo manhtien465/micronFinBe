@@ -368,12 +368,19 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     singularName: 'homepage';
     pluralName: 'homepages';
     displayName: 'homepage';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     name: Attribute.String;
+    products: Attribute.Component<'service.service', true>;
+    teams: Attribute.Component<'team.team', true>;
+    experience: Attribute.Blocks;
+    aboutTitle: Attribute.Text;
+    aboutDesc: Attribute.Text;
+    services: Attribute.Component<'service.service', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

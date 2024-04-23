@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_product_products",
+  "info": {
+    "displayName": "product"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}
