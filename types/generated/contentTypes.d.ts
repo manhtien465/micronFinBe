@@ -386,6 +386,14 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     email: Attribute.String;
     address: Attribute.String;
     footerTitle: Attribute.String;
+    addressRegionSeo: Attribute.String;
+    postalCodeSeo: Attribute.String;
+    addressCountrySeo: Attribute.String;
+    addressLocality: Attribute.String;
+    contactType: Attribute.String;
+    telephoneSeo: Attribute.String;
+    legalNameSeo: Attribute.String;
+    streetAddressSeo: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -57,6 +57,30 @@
     },
     "footerTitle": {
       "type": "string"
+    },
+    "addressRegionSeo": {
+      "type": "string"
+    },
+    "postalCodeSeo": {
+      "type": "string"
+    },
+    "addressCountrySeo": {
+      "type": "string"
+    },
+    "addressLocality": {
+      "type": "string"
+    },
+    "contactType": {
+      "type": "string"
+    },
+    "telephoneSeo": {
+      "type": "string"
+    },
+    "legalNameSeo": {
+      "type": "string"
+    },
+    "streetAddressSeo": {
+      "type": "string"
     }
   }
 }
