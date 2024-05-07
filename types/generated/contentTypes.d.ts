@@ -385,7 +385,7 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     phone: Attribute.String;
     email: Attribute.String;
     address: Attribute.String;
-    footerTitle: Attribute.String;
+    footerTitle: Attribute.Text;
     addressRegionSeo: Attribute.String;
     postalCodeSeo: Attribute.String;
     addressCountrySeo: Attribute.String;
@@ -394,14 +394,6 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     telephoneSeo: Attribute.String;
     legalNameSeo: Attribute.String;
     streetAddressSeo: Attribute.String;
-    q: Attribute.RichText &
-      Attribute.CustomField<
-        'plugin::ckeditor.CKEditor',
-        {
-          output: 'HTML';
-          preset: 'standard';
-        }
-      >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

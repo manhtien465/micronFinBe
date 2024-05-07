@@ -56,7 +56,7 @@
       "type": "string"
     },
     "footerTitle": {
-      "type": "string"
+      "type": "text"
     },
     "addressRegionSeo": {
       "type": "string"
@@ -81,14 +81,6 @@
     },
     "streetAddressSeo": {
       "type": "string"
-    },
-    "q": {
-      "type": "customField",
-      "options": {
-        "output": "HTML",
-        "preset": "standard"
-      },
-      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
