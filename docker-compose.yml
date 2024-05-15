@@ -7,5 +7,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./public:/opt/app/public
+      - ./.tmp:/opt/app/.tmp
+
     ports:
       - "1337:1337"
